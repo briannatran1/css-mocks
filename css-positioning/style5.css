@@ -12,19 +12,27 @@ body {
 }
 
 .two {
+  position: absolute;
   width: 300px;
   height: 300px;
   background-color: yellow;
+  bottom: 0;
+  right: 0;
 }
 
 .three {
+  position: relative;
   width: 200px;
   height: 200px;
   background-color: green;
+  bottom: 200px;
 }
 
 .four {
+  position: relative;
   width: 100px;
   height: 100px;
   background-color: blue;
+  top: -327px;
+  left: -1202px;
 }
