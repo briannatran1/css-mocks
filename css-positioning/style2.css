@@ -24,7 +24,9 @@ body {
 }
 
 .four {
+  position: absolute;
   width: 100px;
   height: 100px;
   background-color: blue;
+  right: 0px;
 }
