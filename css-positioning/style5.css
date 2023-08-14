@@ -1,3 +1,4 @@
+/* FIXME: box-sizing */
 body {
   margin: 0;
   border: 5px solid black;
@@ -29,10 +30,10 @@ body {
 }
 
 .four {
-  position: relative;
+  position: fixed;
   width: 100px;
   height: 100px;
   background-color: blue;
-  top: -327px;
-  left: -1202px;
+  top: 5px;
+  left: 5px;
 }
